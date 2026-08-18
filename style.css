@@ -2,12 +2,22 @@
     box-sizing: border-box;
 }
 
+:root {
+    --background: #e2fecf;
+    --surface: #ffffff;
+    --text: #26322c;
+    --muted-text: #607068;
+    --accent: #36966b;
+    --accent-light: #dcebe2;
+    --border: #d6f9e4;
+}
+
 body {
     margin: 0;
-    background-color: #a2ff9f;
-    color: #000000;
+    background-color: var(--background);
+    color: -var(text);
     font-family: Arial, sans-serif, "微軟正黑體";
-    line-height: 2;
+    line-height: 1.7;
     font-size: 20px;
 }
 
@@ -24,10 +34,12 @@ header {
 }
 
 h1 {
-    background-color: #45e886;
+    font-size: 2.6rem;
+    font-family: 'Times New Roman', Times, serif;
 }
 h2 {
-    background-color: #45e886;
+    color: var(--accent);
+    
 }
 ul {
     font-weight: bold;
@@ -35,6 +47,13 @@ ul {
 
 a:hover {
     color:cornflowerblue;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-radius: 50px;
 }
 
 nav {
