@@ -12,6 +12,10 @@
     --border: #d6f9e4;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
     background-color: var(--background);
@@ -28,7 +32,7 @@ main {
 }
 
 header {
-    background-color: #0f172a;
+    background-color: #022e13;
     color: white;
 }
 
@@ -65,7 +69,13 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap:2px;
+    gap:10px;
+}
+
+.nav-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 20px;
 }
 
 nav .site-name {
@@ -74,7 +84,6 @@ nav .site-name {
 }
 
 nav a {
-    margin-left: 20px;
     color: #cbd5e1;
     text-decoration: none;
 }
@@ -84,7 +93,7 @@ nav a:hover {
 }
 
 
-/* Introductory section */
+
 .hero {
     margin-bottom: 60px;
 }
