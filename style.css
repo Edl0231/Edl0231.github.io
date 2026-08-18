@@ -43,7 +43,9 @@ h2 {
 ul {
     font-weight: normal;
 }
-
+a {
+    font-weight: bold;
+}
 a:hover {
     color:cornflowerblue;
 }
