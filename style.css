@@ -1,15 +1,20 @@
-/* Apply predictable sizing to every element */
 * {
     box-sizing: border-box;
 }
 
-/* Page-wide styling */
 body {
     margin: 0;
-    background-color: #f8fafc;
-    color: #1e293b;
-    font-family: Arial, sans-serif;
-    line-height: 1.7;
+    background-color: #a2ff9f;
+    color: #000000;
+    font-family: Arial, sans-serif, "微軟正黑體";
+    line-height: 2;
+    font-size: 20px;
+}
+
+main {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 64px 24px;
 }
 
 /* Top navigation bar */
@@ -18,12 +23,26 @@ header {
     color: white;
 }
 
+h1 {
+    background-color: #45e886;
+}
+h2 {
+    background-color: #45e886;
+}
+ul {
+    font-weight: bold;
+}
+
+a:hover {
+    color:cornflowerblue;
+}
+
 nav {
     max-width: 900px;
     margin: 0 auto;
     padding: 18px 24px;
 
-    display: flex;
+    display: flex0;
     justify-content: space-between;
     align-items: center;
 }
@@ -43,12 +62,6 @@ nav a:hover {
     color: white;
 }
 
-/* Main page container */
-main {
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 70px 24px;
-}
 
 /* Introductory section */
 .hero {
