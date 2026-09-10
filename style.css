@@ -3,11 +3,11 @@
 }
 
 :root {
-    --background: #e2fecf;
+    --background: #ecffcd;
     --surface: #ffffff;
     --text: #26322c;
     --muted-text: #607068;
-    --accent: #36966b;
+    --accent: #229249;
     --accent-light: #dcebe2;
     --border: #d6f9e4;
 }
@@ -38,11 +38,13 @@ header {
 
 h1 {
     font-size: 2.6rem;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif, '新細明體';
 }
 h2 {
     color: var(--accent);
-    
+}
+h4 {
+    color:#1f7f91;
 }
 ul {
     font-weight: normal;
@@ -111,7 +113,6 @@ nav a:hover {
     font-size: 1.2rem;
 }
 
-/* Project cards */
 .projects {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -137,7 +138,6 @@ nav a:hover {
     color: #2563eb;
 }
 
-/* Footer */
 footer {
     padding: 30px 24px;
     color: #64748b;
